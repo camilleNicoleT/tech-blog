@@ -6,20 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Techy Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
   <div class="wrapper">
+  <img src="public/stylesheets/img/hi-tech-enterprise-smart-assistant.jpeg" class="img-fluid" alt="Side of a persons face with ones and zeroes shooting out">
     <header>
       <h1>
-        <a href="/">Techy Blog</a>
+        <a href="/" class="title">Tech Blog</a>
       </h1>
       <nav>
+       
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a href="/dashboard">Dashboard</a>
+        <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <h3>
+        <a href="/", class="m-2">Home</a>
+        <a href="/login", class="m-2">Login</a>
+        </h3>
         {{/if}}
       </nav>
     </header>
