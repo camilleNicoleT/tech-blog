@@ -3,7 +3,7 @@ const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models/Index');
 
 // get all posts for homepage
-router.get('/', withAuth, (req, res) => {
+router.get('/', (req, res) => {
   console.log('======================');
   Post.findAll({
     attributes: [
