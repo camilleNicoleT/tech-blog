@@ -106,7 +106,7 @@ main {
   background-color: #153e70;
   height: 100%;
   width: 100%;
-  padding: 1%;
+  padding: 2%;
   margin: 0;
 }
 
@@ -150,6 +150,7 @@ main {
 
 .edit-link {
   display: block;
+  border: #00ccff;
   margin: -1.5% 0 2% 0;
 }
 
