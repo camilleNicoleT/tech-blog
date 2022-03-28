@@ -24,7 +24,7 @@ a:hover {
 }
 
 .main-title {
-  color:#081d36;
+  color:#00ccff;
   text-shadow: 0 0 10px rgba(7, 95, 177, 0.5);
   font-weight: 800;
 }
@@ -76,7 +76,6 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -90,7 +89,7 @@ header {
   display: flex;
   background-image: url("https://files.techmahindra.com/static/img/hi-tech-enterprise-smart-assistant.jpg");
   align-items: center;
-  padding: 2% 0;
+  padding: 2% 1%;
   background-size: cover;
   background-attachment: fixed;
   background-position: 50%;
@@ -103,9 +102,12 @@ header h1 {
 }
 
 main {
-  flex: 1;
-  padding: 2% 4%;
-  background-color: #153e70;;
+  color: #11b6b6;
+  background-color: #153e70;
+  height: 100%;
+  width: 100%;
+  padding: 1%;
+  margin: 0;
 }
 
 .btn-no-style {
@@ -146,8 +148,6 @@ main {
   color: #0f0a0a;
 }
 
-
-
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
@@ -187,6 +187,7 @@ main {
 
 footer {
   border-top: 1px solid rgb(161, 196, 219);
+  background-color: #0c9191;
   display: flex;
   justify-content: center;
   padding: 1%;
