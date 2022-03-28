@@ -19,7 +19,6 @@ const postdata = [
   {
     title: 'Nunc purus.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: null,
     user_id: 4
   },
   {
@@ -30,13 +29,11 @@ const postdata = [
   {
     title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: 'https://stanford.edu/consequat.png',
     user_id: 4
   },
   {
     title: 'In hac habitasse platea dictumst.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: 'http://edublogs.org/non/ligula/pellentesque.js',
     user_id: 1
   },
   {
@@ -47,7 +44,6 @@ const postdata = [
   {
     title: 'Duis ac nibh.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
     user_id: 9
   },
   {
@@ -63,13 +59,11 @@ const postdata = [
   {
     title: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: 'http://networksolutions.com/nam/ultrices/libero/non/mattis/pulvinar.json',
     user_id: 10
   },
   {
     title: 'Donec dapibus.',
     text: 'Donec posuere metus vitae ipsum. Donec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsumDonec posuere metus vitae ipsum',
-    post_url: 'https://instagram.com/ac/neque/duis/bibendum/morbi/non.xml',
     user_id: 8
   },
   {
