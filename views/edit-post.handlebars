@@ -1,4 +1,4 @@
-<article>
+<article class="flex-column p-2">
   <a href="/dashboard"> &larr; Back to dashboard</a>
   <h2>
     Edit Post
@@ -6,7 +6,9 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <textarea name="post-text" type="text" value="{{post.text}}" />
+      </div>
+      <div>
+      <textarea name="post-text" input-type="text" cols="50" rows="20"  value="{{post.text}}" /></textarea>
     </div>
     <div>
       {{format_date post.created_at}}
@@ -17,7 +19,6 @@
     <button type="button" class="delete-post-btn">Delete post</button>
   </form>
 </article>
-
 <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
@@ -27,7 +28,6 @@
     <button type="submit">add comment</button>
   </div>
 </form>
-
 {{> comments post.comments}}
 
 <script src="/javascript/edit-post.js"></script>

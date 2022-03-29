@@ -33,7 +33,7 @@ button {
   background-color: #d7e052;
   border: 0;
   padding: 1%;
-  color: rgb(125, 181, 245);
+  color: rgb(91, 162, 243);
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
@@ -82,8 +82,7 @@ form label {
 }
 
 header {
-   flex-wrap: wrap;
-  top: 0;
+   top: 0;
   background-color: #d7e052;
   justify-content: space-between;
   display: flex;
@@ -107,7 +106,7 @@ main {
   height: 100%;
   width: 100%;
   padding: 2%;
-  margin: 0;
+  margin-bottom: 2em;
 }
 
 .btn-no-style {
@@ -142,8 +141,9 @@ main {
   border: 1px solid rgb(24, 129, 250);
 }
 
-.post .title span {
+.post .title .text span {
   font-style: italic;
+  flex-wrap: wrap;
   font-size: 90%;
   color: #0f0a0a;
 }
@@ -172,6 +172,7 @@ main {
   font-size: 90%;
   margin-bottom: .5%;
   opacity: .6;
+  height: 100%;
 }
 
 .new-post-form input {
@@ -179,7 +180,7 @@ main {
 }
 
 .edit-post-form {
-  margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 #email-login, #password-login, #username-signup, #email-signup, #password-signup {
@@ -188,9 +189,11 @@ main {
 
 footer {
   border-top: 1px solid rgb(161, 196, 219);
+  margin-bottom: 0%;
   background-color: #0c9191;
+  opacity: 80%;
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 110%;
+  font-size: 100%;
 }

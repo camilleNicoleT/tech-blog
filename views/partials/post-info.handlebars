@@ -1,8 +1,13 @@
 <article class="post">
   <div class="title">
-   <h3>{{title}} </h3> 
-     <p>{{text}}</p>
+  <h3>
+    <a href="/post/{{id}}" class="title">{{title}}</a>
+  </h3> 
   </div>
+  {{#if loggedIn}}
+    <div class="text">{{text}}
+    </div>
+   {{/if}}
   <div class="meta">
     Created by {{user.username}} on {{format_date created_at}}
     |
