@@ -180,7 +180,11 @@ main {
 }
 
 .edit-post-form {
+<<<<<<< HEAD
     margin-bottom: 10%;
+=======
+  margin-bottom: 5%;
+>>>>>>> 01d4efdcea21da496243b477905f29faf416c3f9
 }
 
 #email-login, #password-login, #username-signup, #email-signup, #password-signup {
