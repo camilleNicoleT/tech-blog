@@ -1,4 +1,6 @@
-Tech-blog
+# Tech Blog
+
+Deployed Heroku: https://warm-river-34592.herokuapp.com/
 Github Link: https://github.com/camilleNicoleT/tech-blog.git
 
 ## Description
