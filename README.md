@@ -13,7 +13,7 @@ The User can read, post and update blog posts!
    - [Questions](#Questions) 
 
 ## Usage
-  Receive data of retail product items and tracking their price, how much in stock with relation to category and tag ids.
+Create blog posts, comment on other blog posts and interact with other users.
 
 
 ## Questions
